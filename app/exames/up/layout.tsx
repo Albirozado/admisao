@@ -1,3 +1,4 @@
+import UpNavBar from "@/components/UpNavBar"
 import Sugestoes from "@/components/Sugestoes"
 
 export default function UpLayout({
@@ -8,6 +9,7 @@ export default function UpLayout({
     return (
         <section>
           <div>
+            <div><UpNavBar/></div>              
           </div>
           <div className="grid grid-cols-3 gap-2 sm:grid-cols-1 mx-2">
             <div className="bg-[#fff] mt-2 px-2 sm:hidden">
