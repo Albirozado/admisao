@@ -149,7 +149,7 @@
     align-items: center;
     padding: 0 1.8rem;
     }
-    .header p{
+    .header p, h1{
         text-align: center;
     }
     .header_content{
