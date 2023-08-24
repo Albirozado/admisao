@@ -14,10 +14,10 @@ function navigatioBar() {
   return (
 
   <>
-  {['sm'].map((expand) => (
+  {['md'].map((expand) => (
     <Navbar key={expand} expand={expand} className=" bg-body-tertiary mb-3">
       <Container >
-        <Navbar.Brand href="/" style={{color:"#946f5d", fontWeight: "900"}}>LogoMarca</Navbar.Brand>
+        <Navbar.Brand href="/" style={{color:"#2c8385", fontWeight: "900"}}>LogoMarca</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} style={{border: "none", fontWeight: "500", position: "relative"}} />
         
         <Navbar.Offcanvas
@@ -39,13 +39,13 @@ function navigatioBar() {
                              
               >
                 <div className='DropShadow'>
-                <NavDropdown.Item href="/exames/uem/portugues" style={{padding: "0.5rem 1rem", fontWeight: "400", display: "block", width: "8em",  textAlign: "center", color: "#353a47"}}>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{padding: "0.5rem 1rem", fontWeight: "400", display: "block", width: "8em",  textAlign: "center", color: "#0e1d27"}}>
                       UEM
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/exames/uem/portugues" style={{padding: "0.5rem 1rem", fontWeight: "400", display: "block", width: "8rem",  textAlign: "center", color: "#353a47"}}>
+                <NavDropdown.Item href="/exames/up/portugues" style={{padding: "0.5rem 1rem", fontWeight: "400", display: "block", width: "8rem",  textAlign: "center", color: "#0e1d27"}}>
                       UP
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/exames/uem/portugues" style={{padding: "0.5rem 1rem", fontWeight: "400", display: "block", width: "8rem",  textAlign: "center", color: "#353a47"}}>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{padding: "0.5rem 1rem", fontWeight: "400", display: "block", width: "8rem",  textAlign: "center", color: "#0e1d27"}}>
                       UJC
                 </NavDropdown.Item>
                 </div>
@@ -53,9 +53,9 @@ function navigatioBar() {
 
               </NavDropdown>
 
-              <Nav.Link href="/blog"  style={{color: "#353a47", fontWeight: "400"}}>Blog</Nav.Link>
+              <Nav.Link href="/blog"  style={{color: "#0e1d27", fontWeight: "400"}}>Blog</Nav.Link>
   
-              <Nav.Link href="/material"  style={{color: "#353a47", fontWeight: "400"}}>Materiais & Livros</Nav.Link>
+              <Nav.Link href="/material"  style={{color: "#0e1d27", fontWeight: "400"}}>Materiais & Livros</Nav.Link>
             </Nav>
             <Form className="d-flex">
               <Form.Control

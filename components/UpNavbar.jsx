@@ -8,12 +8,12 @@ import Biologia from "@/public/celula.png"
 import Quimic from "@/public/quimico.png"
 import Historia from "@/public/historico.png"
 import Ingles from "@/public/linguistic.png" 
-export default function PortuguesNavBar() {
+export default function UpNavBar() {
     return (
         <div className="scroll-container rounded-md bg-[#fff]" >
             <ul className="flex flex-row gap-3 mb-1">
                 <li className="bg-[#fff] mt-2 pt-2 px-2  rounded-md hover:scale-105 drop-shadow-md border-solid border-1 border-[#ccc]" >
-                    <Link href="/exames/uem/portugues" className="decoration-transparent ">
+                    <Link href="/exames/up/portugues" className="decoration-transparent ">
                         <div className="flex justify-center">
                             <Image src={Portugues}
                                width={25}
@@ -24,7 +24,7 @@ export default function PortuguesNavBar() {
                     </Link>
                 </li>
                 <li className="bg-[#fff] mt-2 pt-2 px-2   rounded-md hover:scale-105 drop-shadow-md border-solid border-1 border-[#ccc]" >
-                    <Link href="/exames/uem/matematica" className="decoration-transparent">
+                    <Link href="/exames/up/matematica" className="decoration-transparent">
                         <div className="flex justify-center">
                             <Image src={Matematica}
                                width={25}

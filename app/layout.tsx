@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{backgroundColor: "#F2ECFF"}}>
+      <body style={{backgroundColor: "#FFFCFC"}}>
         <header>
           <nav>
             <NavigationBar/>
