@@ -1,4 +1,4 @@
-import UpNavBar from "@/components/UpNavBar"
+import UpNavBar from "../../../components/UpNavbar"
 import Sugestoes from "@/components/Sugestoes"
 
 export default function UpLayout({
