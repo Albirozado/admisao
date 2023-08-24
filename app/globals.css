@@ -139,7 +139,7 @@
     justify-content: center;
     background-color: red;
 }
-@media (max-width: 1404px){
+@media (max-width: 1405px){
     .header{
         margin-bottom: 3rem;
     }
