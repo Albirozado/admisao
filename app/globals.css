@@ -139,6 +139,11 @@
     justify-content: center;
     background-color: red;
 }
+@media (max-width: 674px){
+    .exameCompo{
+        margin-top: 2.5rem;
+    }
+}
 
 @media (max-width: 674px){
     .header{
