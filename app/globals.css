@@ -50,6 +50,9 @@
     background-color: #ffffff;
     
 }
+.main{
+    margin-top: 4rem;
+}
 .dropdown-item{
     position: relative;
 }
