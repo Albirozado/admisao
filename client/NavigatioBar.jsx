@@ -15,12 +15,12 @@ function Navigatiobar() {
           <Nav className="ms-auto"> {/* Use "ms-auto" class to align items to the right */}
             <NavDropdown title="Exames" id="basic-nav-dropdown" style={{fontWeight: "600"}}>
               <div style={{backgroundColor: "#f8f9fa"}}>
-              <NavDropdown.Item href="/exames/uem/portugues" className='no-hover' style={{marginBottom: "0.5rem"}}>Universidade E. Mondlane</NavDropdown.Item>
-              <NavDropdown.Item href="/exames/up/portugues" style={{marginBottom: "0.5rem"}}>
+              <NavDropdown.Item href="/exames/uem/portugues" className='no-hover' style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Universidade E. Mondlane</NavDropdown.Item>
+              <NavDropdown.Item href="/exames/up/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>
                 Universidade Pedagogica
               </NavDropdown.Item>
-              <NavDropdown.Item href="/exames/up/portugues" style={{marginBottom: "0.5rem"}}>Universidade J. Chissano</NavDropdown.Item>
-              <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem"}}>
+              <NavDropdown.Item href="/exames/up/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Universidade J. Chissano</NavDropdown.Item>
+              <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>
                 Universidade J. Chissano
               </NavDropdown.Item>
 
