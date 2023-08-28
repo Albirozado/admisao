@@ -50,12 +50,23 @@
     background-color: #ffffff;
     
 }
-.dropdown-item:hover{
-    letter-spacing: 3px;
-    transition: .2s linear;
-    
+.dropdown-item{
+    position: relative;
+}
+.dropdown-item::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0.2rem;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s;
+    background-color: #FF931E;
 }
 
+.dropdown-item:hover::before {
+    width: 100%;
+}
 .DropShadow .dropdown-item:hover{
     background-color: transparent;
 
