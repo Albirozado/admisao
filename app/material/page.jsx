@@ -1,3 +1,8 @@
 export default function MaterialPage(){
-    return <h1>this is Material page</h1>
+    return(
+        <div>
+
+            <h1>ola material page</h1>
+        </div>
+    )
 }

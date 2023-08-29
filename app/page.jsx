@@ -1,19 +1,19 @@
 import HeaderCompo from "@/components/HeaderCompo"
 import ExamesCompo from "../components/ExamesCompo"
 import BlogCompo from "../components/BlogCompo"
+import MaterialHome from "../components/MaterialHome"
 export default function Home() {
   return (      
     <>
-      <section>
+    <header>
         <HeaderCompo/>
-      </section>
-      <section>
+    </header>
+    <main>
         <ExamesCompo/>
-      </section>
-      <section className="mx-2">
+        <MaterialHome/>
         <BlogCompo/>
-
-      </section>
+    </main>
+      
     </>
   
     

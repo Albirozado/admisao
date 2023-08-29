@@ -1,4 +1,3 @@
-import {AiFillFacebook} from 'react-icons/ai'
 import {AiFillHome} from 'react-icons/ai'
 import {MdEmail} from 'react-icons/md'
 import {BsFillTelephoneFill} from 'react-icons/bs'
