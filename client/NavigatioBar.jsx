@@ -15,7 +15,7 @@ function Navigatiobar() {
           <Nav className="ms-auto"> {/* Use "ms-auto" class to align items to the right */}
             <NavDropdown title="Exames" id="basic-nav-dropdown" style={{fontWeight: "600"}}>
               <div style={{backgroundColor: "#f8f9fa"}}>
-              <NavDropdown.Item href="/exames/uem/portugues" className='no-hover' style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Universidade E. Mondlane</NavDropdown.Item>
+              <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Universidade E. Mondlane</NavDropdown.Item>
               <NavDropdown.Item href="/exames/up/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>
                 Universidade Pedagogica
               </NavDropdown.Item>
@@ -26,7 +26,19 @@ function Navigatiobar() {
 
               </div>
             </NavDropdown>
-            <Nav.Link href="/material" style={{fontWeight: "600"}} >Material & Livros</Nav.Link>
+
+              <NavDropdown title="Material & Livros" id="basic-nav-dropdown" style={{fontWeight: "600"}}>
+            <div style={{backgroundColor: "#f8f9fa"}}>
+                <NavDropdown.Item href="/material" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Editais</NavDropdown.Item>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Matrizes</NavDropdown.Item>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Livros do E. Secundario</NavDropdown.Item>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Livros do E. Primario</NavDropdown.Item>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Artigos Cientificos</NavDropdown.Item>
+
+
+            </div>
+              </NavDropdown>
+
             <Nav.Link href="/blog" style={{fontWeight: "600"}}>Blog</Nav.Link>
 
           </Nav>

@@ -1,5 +1,6 @@
 import './globals.css'
 import NavigationBar from "@/client/NavigatioBar"
+import Footer from "../components/Footer"
 
 
 
@@ -25,6 +26,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer>
+          <Footer/>
         </footer>
       </body>
     </html>
