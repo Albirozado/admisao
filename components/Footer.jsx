@@ -17,9 +17,9 @@ export default function Footer(){
     <section className="">
       <div className="container text-center text-md-start mt-5">
         <div className="row mt-3">
-          <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-2">
             <h6 className="text-uppercase fw-bold">Company name</h6>
-            <hr className="mb-4 mt-0 d-inline-block mx-auto background-color: #7c4dff; height: 2px" />
+            <hr  className='mb-3 mt-0'/>
             <p>
               Here you can use rows and columns to organize your footer
               content. Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -27,9 +27,9 @@ export default function Footer(){
             </p>
           </div>
 
-          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
             <h6 className="text-uppercase fw-bold">Products</h6>
-            <hr className="mb-4 mt-0 d-inline-block mx-auto background-color: #7c4dff; height: 2px" />
+            <hr  className='mb-3 mt-0'/>
             <p>
               <a href="#!" className="text-black">MDBootstrap</a>
             </p>
@@ -44,9 +44,9 @@ export default function Footer(){
             </p>
           </div>
 
-          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
             <h6 className="text-uppercase fw-bold">Useful links</h6>
-            <hr className="mb-4 mt-0 d-inline-block mx-auto background-color: #7c4dff; height: 2px" />
+            <hr  className='mb-3 mt-0'/>
             <p>
               <a href="#!" className="text-black">Your Account</a>
             </p>
@@ -61,18 +61,18 @@ export default function Footer(){
             </p>
           </div>
 
-          <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
             <h6 className="text-uppercase fw-bold">Contact</h6>
-            <hr className="mb-4 mt-0 d-inline-block mx-auto background-color: #7c4dff; height: 2px" />
-            <p className='flex items-center'><AiFillHome/> New York, NY 10012, US</p>
-            <p className='flex items-center'><MdEmail/> info@example.com</p>
-            <p className="flex items-center"><BsFillTelephoneFill/> + 01 234 567 88</p>
+            <hr  className='mb-3 mt-0'  />
+            <p className='flex items-center md:justify-start justify-center'><AiFillHome/> New York, NY 10012, US</p>
+            <p className='flex items-center md:justify-start justify-center'><MdEmail/> info@example.com</p>
+            <p className="flex items-center md:justify-start justify-center"><BsFillTelephoneFill/> + 01 234 567 88</p>
           </div>
         </div>
       </div>
     </section>
 
-    <div className="text-center p-3 0, 0, 0, 0.2)">
+    <div className="text-center p-1 0, 0, 0, 0.2)">
       © 2020 Copyright:
       <a className="text-black" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>

@@ -13,7 +13,7 @@ function Navigatiobar() {
   
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto"> {/* Use "ms-auto" class to align items to the right */}
-            <NavDropdown title="Exames" id="basic-nav-dropdown" style={{fontWeight: "600"}}>
+            <NavDropdown title="Exames de Admissao" id="basic-nav-dropdown" style={{fontWeight: "600"}}>
               <div style={{backgroundColor: "#f8f9fa"}}>
               <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Universidade E. Mondlane</NavDropdown.Item>
               <NavDropdown.Item href="/exames/up/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>
@@ -21,7 +21,7 @@ function Navigatiobar() {
               </NavDropdown.Item>
               <NavDropdown.Item href="/exames/up/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Universidade J. Chissano</NavDropdown.Item>
               <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>
-                Universidade J. Chissano
+                Academia Militar
               </NavDropdown.Item>
 
               </div>
@@ -29,11 +29,10 @@ function Navigatiobar() {
 
               <NavDropdown title="Material & Livros" id="basic-nav-dropdown" style={{fontWeight: "600"}}>
             <div style={{backgroundColor: "#f8f9fa"}}>
-                <NavDropdown.Item href="/material" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Editais</NavDropdown.Item>
-                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Matrizes</NavDropdown.Item>
-                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Livros do E. Secundario</NavDropdown.Item>
-                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Livros do E. Primario</NavDropdown.Item>
-                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Artigos Cientificos</NavDropdown.Item>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Ensino Medio & Superior</NavDropdown.Item>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Ensino Secundario</NavDropdown.Item>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Ensino Primario</NavDropdown.Item>
+                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Educacao Infantil</NavDropdown.Item>
 
 
             </div>
