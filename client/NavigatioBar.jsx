@@ -32,7 +32,7 @@ function Navigatiobar() {
                 <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Ensino Medio & Superior</NavDropdown.Item>
                 <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Ensino Secundario</NavDropdown.Item>
                 <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Ensino Primario</NavDropdown.Item>
-                <NavDropdown.Item href="/exames/uem/portugues" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Educacao Infantil</NavDropdown.Item>
+                <NavDropdown.Item href="/material/infantil" style={{marginBottom: "0.5rem", padding: "0.3rem 1rem"}}>Educacao Infantil</NavDropdown.Item>
 
 
             </div>
