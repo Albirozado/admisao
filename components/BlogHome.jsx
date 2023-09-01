@@ -5,7 +5,6 @@ import criancaEstudando from "../public/blog/crianca-estuda.jpg"
 import jovemNegro from "../public/blog/jovem-negro.jpg"
 import retratoJovem from "../public/blog/retrato-de-uma-jovem-mulher-africana.jpg"
 import meninaSoridente from "../public/blog/menina-sorridente-na-leitura-do-sofa.jpg"
-import imageBlur from "../public/blog/1x1-ff8c00b2.png"
 export default function HomeBlog(){
     return (
         <>

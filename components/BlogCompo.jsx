@@ -1,4 +1,3 @@
-import Image from "next/image"
 import styles from "../client/blogStyle.module.css"
 
 export default function BlogCompo(){
