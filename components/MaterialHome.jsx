@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function MaterialHome(){
     return(
         <section className='py-5'>
-            <h1 className="text-center text-[#160E04] font-bold sm:base text-3xl">baixe exame de <span className="text-[#FF931E]">todas as instituicoes</span> publicas </h1>
+            <h3 className='text-center text-[#160E04] font-bold sm:base text-3xl'>Tenha acesso a todos os materiais de aprendisagem: livros, editais, matrizes...</h3>
             <div className='MaterialHome'>
                 <div>
                 <div className="bg-[#fb8500] flex items-center px-3 py-2 rounded-md">

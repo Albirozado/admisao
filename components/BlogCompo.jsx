@@ -3,7 +3,7 @@ import styles from "../client/blogStyle.module.css"
 export default function BlogCompo(){
     return (
         <>
-        <h2 className="text-center font-semibold text-[#333]">Blog</h2>
+        <h2 className="text-center text-[#160E04] font-bold sm:base text-3xl">Blog</h2>
         <section className={styles.Blogau}>
             <div className={styles.boxCompo}>
                 <div className={styles.imagesBlogBack}>
