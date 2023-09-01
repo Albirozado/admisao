@@ -16,8 +16,8 @@ export default function HeaderCompo(){
               width={375}
               height={375}
               sizes="100%"
-              alt="Picture of the author"/>  
-              
+              alt="Picture of the author"
+              />              
           </div>
         </div>
 

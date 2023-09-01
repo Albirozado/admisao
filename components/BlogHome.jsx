@@ -5,6 +5,7 @@ import criancaEstudando from "../public/blog/crianca-estuda.jpg"
 import jovemNegro from "../public/blog/jovem-negro.jpg"
 import retratoJovem from "../public/blog/retrato-de-uma-jovem-mulher-africana.jpg"
 import meninaSoridente from "../public/blog/menina-sorridente-na-leitura-do-sofa.jpg"
+import imageBlur from "../public/blog/1x1-ff8c00b2.png"
 export default function HomeBlog(){
     return (
         <>
@@ -18,6 +19,10 @@ export default function HomeBlog(){
                             maxWidth: "100%",
                             height: "auto",
                         }}
+                        placeholder="blur"
+
+                        alt="blogimage"
+                       
                         />
                     </div>
                     <h3 className="text-lg leading-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</h3>
@@ -32,6 +37,11 @@ export default function HomeBlog(){
                         maxWidth: "100%",
                         height: "auto",
                     }}
+                   placeholder="blur"
+
+                   alt="blogimage"
+                  
+
                     
                     />
                 </div>
@@ -44,7 +54,12 @@ export default function HomeBlog(){
                     style={{
                         maxWidth: "100%",
                         height: "auto",
-                    }}                   
+                    }}  
+                   placeholder="blur"
+
+                   alt="blogimage"
+                  
+                 
                      />
                 </div>
                 <h3 className="text-lg leading-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</h3>
