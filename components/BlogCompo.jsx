@@ -8,7 +8,7 @@ export default function BlogCompo(){
             <div className={styles.boxCompo}>
                 <div className={styles.imagesBlogBack}>
                 <div className={styles.textoBlog}>
-                        <h3 className="text-base leading-5 sm:text-xl">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</h3>
+                        <h3 className="text-3xl leading-5 sm:text-xl">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</h3>
                     </div>
                                     </div>
             </div>
