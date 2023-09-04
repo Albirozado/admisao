@@ -1,5 +1,5 @@
 import Image from "next/image";
-import girl from "@/public/girl.gif"
+import girl from "@/public/girlStudy.jpg"
 export default function HeaderCompo(){
     return(
         <section>
@@ -17,6 +17,7 @@ export default function HeaderCompo(){
               height={375}
               sizes="100%"
               alt="Picture of the author"
+              placeholder="blur"
               />              
           </div>
         </div>

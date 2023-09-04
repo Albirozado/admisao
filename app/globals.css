@@ -116,6 +116,8 @@
 .LinkDecoration{
     text-decoration: none;
     margin-bottom: 0.3rem;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
 
 }
 .LinkDecoration:hover{
