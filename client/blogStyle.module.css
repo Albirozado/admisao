@@ -5,7 +5,7 @@
     "a a c"
     ;
     gap: 2rem;
-    margin: 0 1rem;
+    margin: 0 0.75rem;
 }
 
 
@@ -31,51 +31,18 @@
    bottom: 0;
    background-color: rgba(0, 0, 0, 0.5);
 }
-.imagesBlogBack{
-    position: relative;
-    background: url(../public/blog/estudante-afro.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
+.RobotoBlog{
+    font-family: 'Roboto', sans-serif;
 }
-.imagesBlogBack2{
-    position: relative;
-    background: url(../public/blog/crianca-estuda.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 15rem;
+.imagesBlog{
+    overflow: hidden;
 }
-.imagesBlogBack3{
-    position: relative;
-    background: url(../public/blog/jovem-negro.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 15rem;
+.boxCompo:hover img{
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: .5s;
 }
 
-.Blogau{
-    display: grid;
-    grid-template-areas:
-    "a b"
-    "a c"
-    ;
-    gap: 1rem;
-    margin: 0 0.5rem;
-}
-
-.Blogau .boxCompo:nth-child(1){
-    grid-area: a;
-
-}
-.Blogau .boxCompo:nth-child(2){
-    grid-area: b;
-}
-.Blogau .boxCompo:nth-child(3){
-    grid-area: c;
-}
 @media (max-width:934px){
     .blogPage{
         grid-template-areas: 
@@ -87,14 +54,7 @@
 }
 
 @media (max-width:700px){
-    .Blogau{
-
-        grid-template-areas:
-        "a a"
-        "b c"
-        ;
-        gap: 1rem;
-    }
+   
 }
 
 @media (max-width:500px){
@@ -108,6 +68,7 @@
     }
     .imagesBlogBack{
         height: 20rem;
+       
     }
 
 

@@ -4,6 +4,7 @@ export default function MaterialInfantilPage(){
         <div>
             <Banner/>
             <h1>ola material infantil page</h1>
+
         </div>
     )
 }
