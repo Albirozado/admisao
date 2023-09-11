@@ -5,7 +5,7 @@ import criancaEstudando from "../public/blog/crianca-estuda.jpg"
 import {HiMiniLink} from "react-icons/hi2"
 import BlogAdminOthers from "./BlogAdminOthers"
 import jovemNegro from "../public/blog/jovem-negro.jpg"
-import BlogCompo from "../components/BlogCompo"
+import BlogCompoHome from "../components/BlogCompoHome"
 import Link from "next/link"
 import MulherNegra from "../public/blog/estudante-afrocut.jpg"
 import JovemNegro from "../public/blog/jovem-negro.jpg"
@@ -84,8 +84,8 @@ export default function HomeBlog(){
 
             </div>
         </section>
-        <BlogCompo image = {MulherNegra} image2 = {JovemNegro} image3 = {CrincaEstuda}/>
-        <BlogCompo image = {MulherNegra} image2 = {JovemNegro} image3 = {CrincaEstuda}/>
+        <BlogCompoHome/> 
+        <BlogCompoHome/>
 
         </>
     )

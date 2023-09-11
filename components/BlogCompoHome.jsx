@@ -4,7 +4,7 @@ import BlogAminOthers from "../components/BlogAdminOthers"
 import MulherNegra from "../public/blog/estudante-afrocut.jpg"
 import JovemNegro from "../public/blog/jovem-negro.jpg"
 import CrincaEstuda from "..//public/blog/crianca-estuda.jpg"
-export default function BlogCompo(props){
+export default function BlogCompoHome(props){
     return (
         <>
         <h2 className="text-center text-[#160E04] font-bold sm:base text-3xl">{props.title}</h2>
