@@ -31,33 +31,33 @@ export default function Footer(){
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
             <h6 className="text-uppercase fw-bold text-[#ccc]">Exames</h6>
             <hr  className='mb-3 mt-0 text-[#ccc]' />
-            <p>
-              <Link href="#!" className="text-[#ccc]">Univercidade E. Mondlane</Link>
+            <p className='mb-3'>
+              <Link href="#!" className="text-[#ccc]">UEM</Link>
             </p>
-            <p>
-              <Link href="#!" className="text-[#ccc]">Univercidade Pedagogica</Link>
+            <p className='mb-3'>
+              <Link href="#!" className="text-[#ccc]">UP</Link>
             </p>
-            <p>
-              <Link href="#!" className="text-[#ccc]">Univercidade J. Chissano</Link>
+            <p className='mb-3'>
+              <Link href="#!" className="text-[#ccc]">UJC</Link>
             </p>
-            <p>
-              <Link href="#!" className="text-[#ccc]">Academia Militar</Link>
+            <p className='mb-3'>
+              <Link href="#!" className="text-[#ccc]">ACIPOL</Link>
             </p>
           </div>
 
           <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
             <h6 className="text-uppercase fw-bold text-[#ccc]">Material & Livros</h6>
             <hr  className='mb-3 mt-0 text-[#ccc]'/>
-            <p>
+            <p className='mb-3'>
               <Link href="#!" className="text-[#ccc]">Your Account</Link>
             </p>
-            <p>
+            <p className='mb-3'>
               <Link href="#!" className="text-[#ccc]">Become an Affiliate</Link>
             </p>
-            <p>
+            <p className='mb-3'>
               <Link href="#!" className="text-[#ccc]">Shipping Rates</Link>
             </p>
-            <p>
+            <p className='mb-3'>
               <Link href="#!" className="text-[#ccc]">Help</Link>
             </p>
           </div>
