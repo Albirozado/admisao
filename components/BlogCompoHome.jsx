@@ -7,8 +7,8 @@ import CrincaEstuda from "..//public/blog/crianca-estuda.jpg"
 export default function BlogCompoHome(props){
     return (
         <>
-        <h2 className="text-center text-[#160E04] font-bold sm:base text-3xl">{props.title}</h2>
-        <section className="grid sm:grid-cols-3 grid-cols-1  gap-2 mx-3">
+        <h2 className="text-center text-[#160E04] font-bold sm:base text-3xl">Blog</h2>
+        <section className="grid sm:grid-cols-3 grid-cols-1  gap-3 mx-3">
             <div className={styles.boxCompo}>
                 <div className={styles.imagesBlog}>
                     <Image

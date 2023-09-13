@@ -1,4 +1,15 @@
+import Image from "next/image"
+import Anuncio from "../public/anuncio.png"
 export default function Anuncions(){
-    return <h4>Anuncios component</h4>
+    return(
+        <>
+        <Image
+        src={Anuncio}
+        width={1000}
+        height={600}
+
+        />
+        </>
+    ) 
 
 }
