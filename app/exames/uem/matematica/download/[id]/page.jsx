@@ -1,7 +1,7 @@
 import Link from "next/link"
-import getPortuguesUemId from "../getPortuguesUemId"
+import getMatematicaUem from "../getMatematicaUem"
 export default async function DownloadFinal({params:{id}}){
-    const exame = await getPortuguesUemId(id)
+    const exame = await getMatematicaUem(id)
  
     return(
         <>
