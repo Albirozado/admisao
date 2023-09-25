@@ -11,7 +11,7 @@ import Link from 'next/link';
 export default function MaterialHome(){
     return(
         <section className='pb-5'>
-            <h3 className='text-center text-[#160E04] font-bold sm:base text-3xl'>Tenha acesso a todos os materiais de aprendisagem: <br /> livros, editais, matrizes...</h3>
+            <h3 className='text-center text-[#160E04] font-semibold uppercase sm:base text-3xl'>Baixe <span className='text-[#FF931E]'>livros, editais e matrizes.</span></h3>
             <div className='MaterialHome'>
                 <div>
                     <Link href="#" style={{textDecoration:"none"}}>

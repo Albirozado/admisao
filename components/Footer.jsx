@@ -12,14 +12,14 @@ import Link from 'next/link'
 export default function Footer(){
     return(
         <>
-<div className="container">
+<div className="containeree">
 
   <footer className="text-center text-lg-start bg-[#333] pt-2 mt-2">
     <section className="">
-      <div className="container text-center text-md-start mt-2">
+      <div className="text-center text-md-start mt-2">
         <div className="row mt-3">
           <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-2">
-            <h6 className="text-uppercase fw-bold text-[#ccc]">Company name</h6>
+            <h6 className="text-uppercase fw-bold text-[#ccc]">ADMISSAO.COM</h6>
             <hr  className='mb-3 mt-0 text-[#ccc]'/>
             <p className="text-[#ccc]">
               Here you can use rows and columns to organize your footer
@@ -29,19 +29,19 @@ export default function Footer(){
           </div>
 
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
-            <h6 className="text-uppercase fw-bold text-[#ccc]">Exames</h6>
+            <h6 className="text-uppercase fw-bold text-[#ccc]">Exames de Admissao</h6>
             <hr  className='mb-3 mt-0 text-[#ccc]' />
             <p className='mb-3'>
-              <Link href="#!" className="text-[#ccc]">UEM</Link>
+              <Link href="exames/uem/portugues" className="text-[#ccc]">UEM</Link>
             </p>
             <p className='mb-3'>
-              <Link href="#!" className="text-[#ccc]">UP</Link>
+              <Link href="exames/up/portugues" className="text-[#ccc]">UP</Link>
             </p>
             <p className='mb-3'>
-              <Link href="#!" className="text-[#ccc]">UJC</Link>
+              <Link href="exames/ujc/portugues" className="text-[#ccc]">UJC</Link>
             </p>
             <p className='mb-3'>
-              <Link href="#!" className="text-[#ccc]">ACIPOL</Link>
+              <Link href="exames/acipol/portugues" className="text-[#ccc]">ACIPOL</Link>
             </p>
           </div>
 

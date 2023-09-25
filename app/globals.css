@@ -46,15 +46,19 @@
     bottom: 0.5rem;
 }
 
-
+.containeree{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 #collasible-nav-dropdown{
     color: #0e1d27;
     font-weight: 400;
 }
 .main{
-    width: 1280px;
+    width: 1366px;
     margin: 0 auto;
     max-width: 100%;
+    margin-top: 4rem;
 }
 .DropShadow{
     width: 8rem;
@@ -63,9 +67,7 @@
     background-color: #ffffff;
     
 }
-.main{
-    margin-top: 4rem;
-}
+
 .dropdown-item{
     position: relative;
 }

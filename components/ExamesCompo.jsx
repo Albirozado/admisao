@@ -7,7 +7,7 @@ import Link from "next/link"
 export default function ExamesCompo(){
     return(
         <section className="mb-5 sm:mx-2 mx-2 sm:pt-0 pt-44 exameCompo">
-            <h1 className="text-center text-[#160E04] font-bold sm:base text-3xl">baixe exame de <span className="text-[#FF931E]">todas as instituicoes</span> publicas </h1>
+            <h1 className="text-center text-[#160E04] font-semibold uppercase sm:base text-3xl">baixe <span className="text-[#FF931E]"> exame de todas as instituicoes</span> publicas </h1>
 
             <div className="container grid md:grid-cols-4 grid-cols-2 gap-2">
             <Link href="exames/uem/portugues" style={{textDecoration: "none"}}>
@@ -22,7 +22,7 @@ export default function ExamesCompo(){
                 <p className="mb-0 text-center sm:text-sm text-sm text-[#333] ">baixar exames</p>
             </div>
             </Link>
-            <Link href="/caminho-para-a-pagina" style={{textDecoration: "none"}}>
+            <Link href="exames/ujc/portugues" style={{textDecoration: "none"}}>
                 <div className="text-[#fff] shadow-md border-solid border-1 border-[#ccc] py-3 rounded-lg">
                     <div className="flex justify-center">
                     <Image
